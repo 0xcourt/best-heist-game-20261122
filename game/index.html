@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Halcyon Vault — 5 jobs, 6 guards, 4 cameras, 21 treasures, 3 gadgets</title>
+<style>
+  html, body { margin: 0; padding: 0; background: #0d1020; }
+  body { font-family: sans-serif; color: #c9cfe8; }
+  #wrap { width: 1280px; margin: 0 auto; }
+  canvas { display: block; width: 1280px; height: 720px; background: #161b2e; }
+  #footer { display: flex; gap: 12px; align-items: center; padding: 10px 14px; font-size: 13px; }
+  #footer button { background: #232a45; color: #ffd76a; border: 1px solid #8a6d3b;
+    padding: 6px 12px; cursor: pointer; font-size: 13px; }
+  #footer a { color: #7fd4ff; }
+  #footer span { color: #8a93b8; }
+</style>
+</head>
+<body>
+<div id="wrap">
+  <canvas id="game" width="1280" height="720"></canvas>
+  <div id="footer">
+    <button id="toggle-shake">Shake: 100%</button>
+    <button id="toggle-flash">Reduce flashing: OFF</button>
+    <span>WASD move · SHIFT sneak · E grab / douse / crack · Q smoke · F + click pebble · P pause · M mute</span>
+    <span>make.fun — best-heist-game-20261122-0559</span>
+  </div>
+</div>
+<script type="module">
+  import { createGame, startGame, bindInput } from './src/main.js';
+  const canvas = document.getElementById('game');
+  const state = createGame(canvas);
+  bindInput(state);
+  startGame(state);
+  window.__halcyon = state;
+</script>
+</body>
+</html>
