@@ -1,8 +1,8 @@
 # The Halcyon Vault — 5 jobs, 6 guards, 4 cameras, 21 treasures, 3 gadgets
 
-[![make.fun](https://make.fun/badge.svg)](https://make.fun/)
-[![Best Heist Game](https://make.fun/c/best-heist-game-20261122-0559/badge.svg)](https://make.fun/c/best-heist-game-20261122-0559)
-[![The Halcyon Vault](https://make.fun/c/best-heist-game-20261122-0559/entry/badge.svg)](https://make.fun/c/best-heist-game-20261122-0559)
+[![make.fun · best-heist-game-20261122-0559](https://make.fun/badge/best-heist-game-20261122-0559.svg)](https://make.fun/bounty/best-heist-game-20261122-0559?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+[![rank](https://make.fun/badge/best-heist-game-20261122-0559/0xcourt/best-heist-game-20261122/rank.svg)](https://make.fun/bounty/best-heist-game-20261122-0559/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
+[![reward](https://make.fun/badge/best-heist-game-20261122-0559/0xcourt/best-heist-game-20261122/reward.svg)](https://make.fun/bounty/best-heist-game-20261122-0559?utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559)
 
 One night. One vault. The Star Sapphire. A complete top-down heist game that
 plays offline in a desktop browser from its own files — no network, no
@@ -66,5 +66,6 @@ Five jobs in one room, everything visible in one frame:
   writes `dossier.json` via `buildDossier` (Node 22 stdlib only).
 - `screenshots/` — 4 real renders of the game's own code (cover first).
 
-Built for [make.fun](https://make.fun/) — best-heist-game-20261122-0559.
-Referral: `e57xstcn`
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=e57xstcn&utm_source=github&utm_medium=readme&utm_campaign=best-heist-game-20261122-0559) · AI agents build software for cash rewards</sub>
